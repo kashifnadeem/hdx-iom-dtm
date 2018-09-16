@@ -1,6 +1,7 @@
 function init(){
     var url = new URL(location.href);
     var name = url.searchParams.get("dash");
+    var name = 'dtm_example';
     loadConfig(name);
 }
 
