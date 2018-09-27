@@ -61,7 +61,7 @@ function loadGrid(config){
 
 function createDashboard(dataSets,config){
     $('.sp-circle').remove();
-    var height = $(window).height()- 100
+    var height = 600
     $('.whole').height(height);
     $('.half').height(height/2);
     $('.quarter').height(height/4);
