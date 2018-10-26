@@ -66,7 +66,7 @@ function createDashboard(dataSets,config){
     $('.half').height(height/2);
     $('.quarter').height(height/4);
 
-    $('#title').html('<h2>'+config.title+'</h2>');
+    $('#title').html('<h2>' + config.title +'</h2><h5>(Burundi, CAR, Cameroon, Libya, Madagascar, Mali, Nigeria)</h5>');
     $('#description').html('<p>'+config.subtext+'</p>');
 
     if(config.headlinefigures>0){
