@@ -1,22 +1,32 @@
 {
-	"title":"DTM Regional (Africa) Dashboard",
-	"subtext":"Internally-displaced people (IDPs) surveyed in seven African countries. These numbers come from the baseline assessments compiled by IOM country teams as part of the Displacement Tracking Matrix (DTM) system. The map and charts are live-updating, incorporating new data as soon as IOM uploads it to the Humanitarian Data Exchange (typically monthly).",
-	"headlinefigures":3,
-	"headlinefigurecharts": [
-		{"data":"https://beta.proxy.hxlstandard.org/data/1d0a79/download/africa-dtm-baseline-assessments-topline.csv",
-		"chartID":"text0013/#country+name/1"},
-		{"data":"https://beta.proxy.hxlstandard.org/data/1d0a79/download/africa-dtm-baseline-assessments-topline.csv",
-		"chartID":"text0012/#population+hh+idps/5"},
-		{"data":"https://beta.proxy.hxlstandard.org/data/1d0a79/download/africa-dtm-baseline-assessments-topline.csv",
-		"chartID":"text0012/#population+idps+ind/6"}
-	],
-	"grid":"grid5",
-	"charts":[				
-		{"data":"https://beta.proxy.hxlstandard.org/data/1d0a79/download/africa-dtm-baseline-assessments-topline.csv",
-		"chartID":"map0002/#adm1+code/4/#population+idps+ind/6",
-		"scale":"log"},
-		{"data":"https://beta.proxy.hxlstandard.org/data/1d0a79/download/africa-dtm-baseline-assessments-topline.csv",
-		"chartID":"chart0009/#country+name/1/#population+idps+ind/6",
-		"sort":"descending"}
-	]
+  "title": "DTM Internal Displacement Dashboard",
+  "subtext": "The information represented in the dashboard below comes from the <u>seven countries</u> utilizing the Displacement Tracking Matrix (DTM) system whose data is <u>available on the HDX platform</u>. The map and chart are live-updating, and so as new data is added to the platform, the visuals will update to accurately reflect internal displacement in the countries.",
+  "headlinefigures": 3,
+  "headlinefigurecharts": [
+    {
+      "data": "https://proxy.hxlstandard.org/data/004c97/download/africa-dtm-baseline-assessments-topline.csv",
+      "chartID": "text0013/#country+name/1"
+    },
+    {
+      "data": "https://proxy.hxlstandard.org/data/004c97/download/africa-dtm-baseline-assessments-topline.csv",
+      "chartID": "text0012/#population+hh+idps/5"
+    },
+    {
+      "data": "https://proxy.hxlstandard.org/data/004c97/download/africa-dtm-baseline-assessments-topline.csv",
+      "chartID": "text0012/#population+idps+ind/6"
+    }
+  ],
+  "grid": "grid5",
+  "charts": [
+    {
+      "data": "https://proxy.hxlstandard.org/data/004c97/download/africa-dtm-baseline-assessments-topline.csv",
+      "chartID": "map0002/#adm1+code/4/#population+idps+ind/6",
+      "scale": "log"
+    },
+    {
+      "data": "https://proxy.hxlstandard.org/data/004c97/download/africa-dtm-baseline-assessments-topline.csv",
+      "chartID": "chart0009/#country+name/1/#population+idps+ind/6",
+      "sort": "descending"
+    }
+  ]
 }
